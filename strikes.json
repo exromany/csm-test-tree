@@ -1,12 +1,17 @@
 [
-  [
-    4,
-    "0x8a1c6881aa97ac4e31694e42f837cd510355fed4760ac2495bb4d4b0df4ce2ce78bb27ee145e284563cb8582f7ee14e7",
-    [0, 0, 0, 0, 0, 1]
-  ],
-  [
-    4,
-    "0xa8c1111e6ef0b210cd8d08c9c5f71795daa0998977f34c754df03e0dbcf9cd3bd4834c3e9a01ad3c82b02712ece82326",
-    [0, 1, 0, 1, 1, 0]
-  ]
+  {
+    "nodeOperatorId": 4,
+    "pubkey": "0x8a1c6881aa97ac4e31694e42f837cd510355fed4760ac2495bb4d4b0df4ce2ce78bb27ee145e284563cb8582f7ee14e7",
+    "strikes": [0, 0, 0, 0, 0, 1]
+  },
+  {
+    "nodeOperatorId": 4,
+    "pubkey": "0xa8c1111e6ef0b210cd8d08c9c5f71795daa0998977f34c754df03e0dbcf9cd3bd4834c3e9a01ad3c82b02712ece82326",
+    "strikes": [0, 1, 0, 1, 1, 0]
+  },
+  {
+    "nodeOperatorId": 4,
+    "pubkey": "0x8050763cb0db819ec36e18c8452903228e9e0a8b38d063065e089700d56b123cd1a5ea96d9af7c93234507d50b3fcad7",
+    "strikes": [0, 0, 0, 0, 0, 0]
+  }
 ]

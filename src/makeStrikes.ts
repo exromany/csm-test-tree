@@ -4,7 +4,17 @@ import { readJsonFile, writeJsonFile, pinJsonToIpfs } from "./utils";
 const main = async () => {
   try {
     // Read strikes from the JSON file
-    const strikes = readJsonFile<any[]>("../strikes.json");
+    const strikes = readJsonFile<
+      {
+        nodeOperatorId: number;
+        pubkey: string;
+        strikes: number[];
+      }[]
+    >("../strikes.json").map((item) => [
+      item.nodeOperatorId,
+      item.pubkey,
+      item.strikes,
+    ]);
 
     // Create the Merkle tree
     const tree = StandardMerkleTree.of(strikes, [

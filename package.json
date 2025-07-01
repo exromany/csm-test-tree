@@ -14,7 +14,7 @@
   },
   "keywords": [],
   "author": "exromany",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@openzeppelin/merkle-tree": "^1.0.8",
     "@pinata/sdk": "^2.1.0",
