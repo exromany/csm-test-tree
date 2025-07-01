@@ -1,12 +1,16 @@
 {
-  "name": "vibe",
+  "name": "csm-test-tree",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run tree && npm run set",
-    "tree": "ts-node src/merkle.ts",
-    "set": "ts-node src/setTreeParams.ts"
+    "start": "npm run ics && npm run strikes",
+    "ics": "npm run make-ics && npm run set-ics",
+    "make-ics": "ts-node src/makeIcs.ts",
+    "set-ics": "ts-node src/setIcs.ts",
+    "strikes": "npm run make-strikes && npm run set-strikes",
+    "make-strikes": "ts-node src/makeStrikes.ts",
+    "set-strikes": "ts-node src/setStrikes.ts"
   },
   "keywords": [],
   "author": "exromany",
